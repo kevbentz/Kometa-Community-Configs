@@ -1,0 +1,145 @@
+## This file is a template remove the .template to use the file
+
+libraries:
+  Movies:                                           # Each library must match the Plex library name
+    report_path: config/reports/Movies.yml
+    collection_files:
+    - file: config/Collections.yml
+    - file: config/Decades.yml
+    - file: config/Genres.yml
+    - file: config/Holiday.yml
+    - file: config/Movies.yml
+    - file: config/Nostalgia.yml
+    - file: config/Studios.yml
+
+##  Overlay Settings
+    remove_overlays: false                          # Set to true if you want to remove overlays
+    reapply_overlays: false                         # If you are doing a lot of testing and changes like me, keep this to true to always reapply overlays - can cause image bloat
+    overlay_files:
+    - pmm: mediastinger                             # Mediastinger overlay when the media item contains a stinger at the end of the movie/show or during the credits
+      template_variables:
+        horizontal_offset: 35
+        horizontal_align: left
+        vertical_offset: 35
+        vertical_align: bottom
+    - pmm: ribbon                                   # Used for ribbon in bottom right; certified fresh, IMDB Top 250, Oscar etc
+    operations:
+      delete_unmanaged_collections: false           #  Set to true to delete unmanaged collections
+      assets_for_all: true                          #  Set to true to create an asset folder for all movies in Plex
+      
+  Movies UHD:                                       # Each library must match the Plex library name
+    report_path: config/reports/MoviesUHD.yml
+##  Overlay Settings
+    remove_overlays: false                          # Set to true if you want to remove overlays
+    reapply_overlays: false                        # If you are doing a lot of testing and changes like me, keep this to true to always reapply overlays - can cause image bloat
+    overlay_files:
+    - pmm: mediastinger                             # Mediastinger overlay when the media item contains a stinger at the end of the movie/show or during the credits
+      template_variables:
+        horizontal_offset: 35
+        horizontal_align: left
+        vertical_offset: 35
+        vertical_align: bottom
+    - pmm: ribbon                                   # Used for ribbon in bottom right; certified fresh, IMDB Top 250, Oscar etc
+    operations:
+      assets_for_all: true
+
+  Television:                                       # Each library must match the Plex library name
+##  Overlay Settings
+    operations:
+      assets_for_all: true                          #  Set to true to create an asset folder for all movies in Plex
+
+settings:
+  run_order:
+  - operations
+  - metadata
+  - collections
+  - overlays
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  asset_depth: 1
+  create_asset_folders: true
+  dimensional_asset_rename: false
+  download_url_assets: true
+  show_asset_not_needed: true
+  sync_mode: append
+  minimum_items: 3
+  item_refresh_delay: 0
+  delete_below_minimum: true
+  delete_not_scheduled: false
+  delete_unmanaged_collections: true
+  run_again_delay: 30
+  missing_only_released: true
+  only_filter_missing: false
+  show_unmanaged: true
+  show_filtered: false
+  show_options: false
+  show_missing: true
+  show_missing_assets: true
+  save_report: true
+  tvdb_language: default
+  ignore_ids:
+  ignore_imdb_ids:
+  playlist_sync_to_users: all
+  verify_ssl: true
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  prioritize_assets: true
+  playlist_report: true
+  check_nightly: false
+  show_unconfigured: true
+  overlay_artwork_filetype: jpg
+  overlay_artwork_quality:
+  default_collection_order:
+  playlist_exclude_users:
+  custom_repo:
+  
+plex:                                           # Can be individually specified per library as well; REQUIRED for the script to run
+  url: 
+  token: 
+  timeout: 60
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+  db_cache:
+  verify_ssl:
+
+tmdb:                                           # REQUIRED for the script to run
+  apikey:
+  language: en
+  cache_expiration: 60
+  region:
+
+tautulli:                                       # Can be individually specified per library as well
+  url: 
+  apikey: 
+
+radarr:                                         # Can be individually specified per library as well
+  url: 
+  token:
+  add_missing: true
+  add_existing: false
+  root_folder_path: /data/media/movies
+  monitor: true
+  availability: released
+  quality_profile: Standard
+  tag: PMM
+  search: true
+  upgrade_existing: false
+  ignore_cache: false
+  monitor_existing: false
+  radarr_path:
+  plex_path:
+
+trakt:
+  client_id: 
+  client_secret:
+  authorization:
+    access_token:
+    token_type: Bearer
+    expires_in: 
+    refresh_token:
+    scope: public
+    created_at: 
+  pin:
