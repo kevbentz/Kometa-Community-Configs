@@ -1,0 +1,32 @@
+templates:
+#####################################
+#    Custom Collection Templates    #
+#####################################
+  Holiday:
+    smart_label: title.asc
+    summary: "A timed collection of <<holiday>> movies that may relate to the holiday. NOTE: this collection will automatically disappear once the holiday period is over."
+    delete_not_scheduled: true
+    sort_title: ++++_Holiday
+    run_again: true
+    visible_home: true
+    visible_shared: true
+    sync_mode: sync
+
+collections:
+#####################################
+#        Holiday Collections        #
+#####################################
+
+  Christmas Movies:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/christmas
+    schedule: range(11/24-12/31)
+    sort_title: ++++_1Holiday
+    template: {name: Holiday, holiday: Christmas}
+    url_poster: https://theposterdb.com/api/assets/276873
+
+  Halloween Movies:
+    trakt_list: https://trakt.tv/users/hdlists/lists/the-top-100-halloween-movies-of-all-time
+    schedule: range(10/24-10/31)
+    sort_title: ++++_2Holiday
+    template: {name: Holiday, holiday: Halloween}
+    url_poster: https://theposterdb.com/api/assets/276878

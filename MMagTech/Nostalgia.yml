@@ -1,0 +1,26 @@
+######################################################
+#                    Nostalgia                      #
+######################################################
+collections:
+
+  80s Nostalgia:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/rewind-this-80-s
+    sort_title: +++++_1Nostalgia
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    summary: Nostalgiac Movies From The 80s. Be Kind, Please Rewind
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+    url_poster: https://theposterdb.com/api/assets/471486
+    
+  90s Nostalgia:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/rewind-this-90-s
+    sort_title: +++++_2Nostalgia
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    summary: Nostalgiac Movies From The 90s. Be Kind, Please Rewind
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+    url_poster: https://theposterdb.com/api/assets/471487
