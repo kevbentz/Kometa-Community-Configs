@@ -1,0 +1,40 @@
+######################################################
+#            Best of Decades Collection              #
+######################################################
+collections:
+
+  Best of 1970s:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/best-of-the-70s
+    url_poster: https://theposterdb.com/api/assets/213584
+    sort_title: +++_1Decade
+    sync_mode: sync
+
+  Best of 1980s:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/best-of-the-80s
+    url_poster: https://theposterdb.com/api/assets/213585
+    sort_title: +++_2Decade
+    sync_mode: sync
+
+  Best of 1990s:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/best-of-the-90s
+    url_poster: https://theposterdb.com/api/assets/213586
+    sort_title: +++_3Decade
+    sync_mode: sync
+    
+  Best of 2000s:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/best-of-2010-2019-479ab183-57ad-4943-9c03-571e50eb5082
+    url_poster: https://theposterdb.com/api/assets/213587
+    sort_title: +++_4Decade
+    sync_mode: sync
+
+  Best of 2010s:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/best-of-2010-2019
+    url_poster: https://theposterdb.com/api/assets/213588
+    sort_title: +++_5Decade
+    sync_mode: sync
+ 
+  Best of 2020s:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/best-of-2020-2030
+    url_poster: https://theposterdb.com/api/assets/213589
+    sort_title: +++_6Decade
+    sync_mode: sync

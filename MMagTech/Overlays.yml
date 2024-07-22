@@ -1,0 +1,9 @@
+overlays:
+    - pmm: flixpatrol                               # Top 10 flixpatrol for 'this_year', positioned on the left
+      template_variables:
+        position: left
+        time_window: this_year
+    - pmm: mediastinger                             # Mediastinger overlay when the media item contains a stinger at the end of the movie/show or during the credits
+    - pmm: ribbon                                   # Used for ribbon in bottom right
+    - pmm: mediastinger
+

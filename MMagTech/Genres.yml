@@ -1,67 +1,138 @@
+templates:
+#####################################
+#    Custom Collection Templates    #
+#####################################
+  Holiday:
+    smart_label: title.asc
+    summary: "A timed collection of <<holiday>> movies that relate to the holiday. NOTE: This collection will automatically disappear once the holiday period is over."
+    delete_not_scheduled: true
+    sort_title: '!AA'
+    run_again: true
+    visible_home: true
+    visible_shared: true
+    sync_mode: sync
+
+
 ######################################################
-#          Adventure Collection Playlist             #
+#                Collection Playlist                 #
 ######################################################
 collections:
   Action:
-    trakt_list: https://trakt.tv/users/mmagtech/lists/action
+    trakt_list: https://trakt.tv/users/rizreflects/lists/action-movies
     sync_mode: sync
     smart_label: critic_rating.desc
     sort_title: ++_1Action Movies
     summary: A collection consisting of the top rated action movies from the 80's onward
-    url_poster: https://theposterdb.com/api/assets/52662
+    url_poster: https://theposterdb.com/api/assets/213118
 
   Adventure:
-    trakt_list: https://trakt.tv/users/mmagtech/lists/adventure
+    trakt_list: https://trakt.tv/users/rizreflects/lists/adventure-movies
     sync_mode: sync
     smart_label: critic_rating.desc
     sort_title: ++_2Adventure Movies
-    summary: A collection consisting of the top rated action movies from the 80's onward
-    url_poster: https://theposterdb.com/api/assets/52672
+    summary: A collection consisting of the top rated Action Movies
+    url_poster: https://theposterdb.com/api/assets/213132
 
   Comedy:
-    trakt_list: https://trakt.tv/users/mmagtech/lists/comedy
+    trakt_list: https://trakt.tv/users/rizreflects/lists/funny
     sync_mode: sync
     smart_label: critic_rating.desc
     sort_title: ++_3Comedy Movies
-    summary: A collection consisting of the top rated comedy movies from the 80s's onward
-    url_poster: https://theposterdb.com/api/assets/52677
+    summary: A collection consisting of the top rated Comedy Movies
+    url_poster: https://theposterdb.com/api/assets/213139
+    
+  Crime:
+    trakt_list: https://trakt.tv/users/rizreflects/lists/crime-dramas
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++_4Crime Movies
+    summary: A collection consisting of the top rated Crime Dramas
+    url_poster: https://theposterdb.com/api/assets/213113
 
   Drama:
-    trakt_list: https://trakt.tv/users/mmagtech/lists/drama
+    trakt_list: https://trakt.tv/users/rizreflects/lists/dramas
     sync_mode: sync
     smart_label: critic_rating.desc
     sort_title: ++_5Drama Movies
-    summary: A collection consisting of the top rated drama movies from the 80's onward
-    url_poster: https://theposterdb.com/api/assets/52676
+    summary: A collection consisting of the top rated Drama Movies
+    url_poster: https://theposterdb.com/api/assets/213134
+    
+  Film Noir:
+    trakt_list: https://trakt.tv/users/rizreflects/lists/film-noir
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++_5Film Noir Movies
+    summary: A collection consisting of the top rated FilmNoir
+    url_poster: https://theposterdb.com/api/assets/213339
+    
+  Gangster:
+    trakt_list: https://trakt.tv/users/rizreflects/lists/gangster-films
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++_5Gangster Movies
+    summary:  A collection consisting of the top rated Gangster Movies
+    url_poster: https://theposterdb.com/api/assets/213102
 
   Horror:
-    trakt_list: https://trakt.tv/users/mmagtech/lists/horror
+    trakt_list: https://trakt.tv/users/mmagtech/lists/dreadit
     sync_mode: sync
     smart_label: critic_rating.desc
     sort_title: ++_6Horror Movies
-    summary: A collection consisting of the top rated horror movies from the 80's onward
-    url_poster: https://theposterdb.com/api/assets/52659
-
-  Space:
-    trakt_list: https://trakt.tv/users/mmagtech/lists/space
+    summary: Top Horror Movies as Defined by Letterboxd User Dreadit. Compiled and voted on from r/Horror via Reddit 
+    url_poster: https://theposterdb.com/api/assets/213106
+    
+  Martial Arts:
+    trakt_list: https://trakt.tv/users/rizreflects/lists/martial-arts
     sync_mode: sync
     smart_label: critic_rating.desc
-    sort_title: ++_7Space
-    summary: A collection consisting of the top rated outer space movies
-    url_poster: https://theposterdb.com/api/assets/167952
+    sort_title: ++_6MartialArts Movies
+    summary: A collection consisting of the top rated Martial Arts Movies
+    url_poster: https://theposterdb.com/api/assets/213140
+    
+  Rom-Com:
+    trakt_list: https://trakt.tv/users/rizreflects/lists/rom-coms
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++_6RomCom
+    summary: A collection consisting of the top rated Rom-Com movies
+    url_poster: https://theposterdb.com/api/assets/213087
+
+  Romantic Drama:
+    trakt_list: https://trakt.tv/users/rizreflects/lists/romantic-dramas
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++_6RomCom
+    summary: A collection consisting of the top rated Rom-Com movies
+    url_poster: https://theposterdb.com/api/assets/213142
+    
+  Sci-Fi:
+    trakt_list: https://trakt.tv/users/rizreflects/lists/sci-fi
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++_7SciFi
+    summary: A collection consisting of the top rated Sci-Fi movies
+    url_poster: https://theposterdb.com/api/assets/204271
+    
+  Slasher:
+    trakt_list: https://trakt.tv/users/rizreflects/lists/slasher-movies
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++_7Slasher
+    summary: A collection consisting of the top rated Slasher Movies
+    url_poster: https://theposterdb.com/api/assets/213358
 
   War:
-    trakt_list: https://trakt.tv/users/mmagtech/lists/war
+    trakt_list: https://trakt.tv/users/mmagtech/lists/military-war
     sync_mode: sync
     smart_label: critic_rating.desc
     sort_title: ++_8War Movies
-    summary:  A collection consisting of the top rated war movies from the 60's onward
-    url_poster: https://theposterdb.com/api/assets/52688
+    summary:  A collection consisting of the top rated War Movies
+    url_poster: https://theposterdb.com/api/assets/213119
 
   Western:
-    trakt_list: https://trakt.tv/users/mmagtech/lists/western
+    trakt_list: https://trakt.tv/users/rizreflects/lists/western-movies
     sync_mode: sync
     smart_label: critic_rating.desc
     sort_title: ++_9Western Movies
-    summary:  A collection consisting of the top rated western movies from the 50's onward
-    url_poster: https://theposterdb.com/api/assets/52686
+    summary:  A collection consisting of the top rated Western Movies
+    url_poster: https://theposterdb.com/api/assets/213122

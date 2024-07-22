@@ -1,0 +1,46 @@
+######################################################
+#                  Studio Collections                #
+######################################################
+collections:
+  Blue Sky:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/blue-sky-studios/
+    smart_label: year.asc
+    sort_title: +_1Blue Sky
+    sync_mode: sync
+    summary: Blue Sky Studios, Inc. is an American computer animation film studio based in Greenwich, Connecticut. It is a subsidiary of 20th Century Animation, a division of Disney Studios Content.
+    url_poster: https://theposterdb.com/api/assets/183134  
+  DreamWorks:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/dreamworks-animation/
+    smart_label: year.asc
+    sort_title: +_2DreamWorks
+    sync_mode: sync
+    summary: DreamWorks Animation LLC (also simply known as DreamWorks) is an American animation studio and a subsidiary of Universal Pictures, itself a subsidiary of Comcast's NBCUniversal. It is based in Glendale, California, and produces animated feature films, television programs, and online virtual games.
+    url_poster: https://theposterdb.com/api/assets/190859 
+  Illumination Entertainment:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/illumination-entertainment/
+    smart_label: year.asc
+    sort_title: +_3Illumination
+    sync_mode: sync
+    summary: Illumination is an American film and animation studio founded by Chris Meledandri in 2007 and owned by Universal Pictures, a division of NBCUniversal, which is itself a division of Comcast. Meledandri produces the films, while Universal finances and distributes all the films. The studio is responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss’ books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio's mascots.
+    url_poster: https://theposterdb.com/api/assets/192201  
+  Pixar:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/pixar/   
+    smart_label: year.asc
+    sort_title: +_4Pixar
+    sync_mode: sync
+    summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios Content owned by The Walt Disney Company. Pixar began in 1979 as part of the Lucasfilm computer division, known as the Graphics Group, before its spin-off as a corporation on February 3, 1986, with funding from Apple co-founder Steve Jobs, who became its majority shareholder. Disney purchased Pixar in 2006 at a valuation of $7.4 billion by converting each share of Pixar stock to 2.3 shares of Disney stock, a transaction that resulted in Jobs becoming Disney's largest single shareholder at the time. Pixar is best known for its feature films technologically powered by RenderMan, the company's own implementation of the industry-standard RenderMan Interface Specification image-rendering application programming interface. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
+    url_poster: https://theposterdb.com/api/assets/189763
+  Sony Pictures Animation:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/sony-pictures-animation/
+    smart_label: year.asc
+    sort_title: +_5Sony Animation
+    sync_mode: sync
+    summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
+    url_poster: https://theposterdb.com/api/assets/178903  
+  Warner Animation Group:
+    trakt_list: https://trakt.tv/users/mmagtech/lists/warner-brothers-animation/
+    smart_label: year.asc
+    sort_title: +_6Decade
+    sync_mode: sync
+    summary: The Warner Animation Group (WAG) is an American animation studio that is the feature animation division of Warner Bros. Entertainment. Established on January 7, 2013, the studio is the successor to the dissolved 2D traditional hand-drawn animation studio Warner Bros. Feature Animation, which shut down in 2003 and the dissolved family film division Warner Bros. Family Entertainment, which shut down in 2009. The entity is also a sister animation studio of the regular animation studio Warner Bros. Animation
+    url_poster: https://theposterdb.com/api/assets/193028
